@@ -125,6 +125,7 @@ const obj2 = { name: "John" };
 console.log(obj1 === obj2); // Outputs: false
 
 Object.freeze():
+=================
 The Object.freeze() method can be used to make an object immutable, preventing the addition, deletion, or modification of properties.
 
 const frozenObj = Object.freeze({ name: "John" });
@@ -135,6 +136,7 @@ frozenObj.name = "Jane"; // This will not have any effect
 console.log(frozenObj.name); // Outputs: John
 
 Object.seal():
+=============== 
 The Object.seal() method seals an object, preventing the addition or deletion of properties,
  but allows the modification of existing properties.
 
