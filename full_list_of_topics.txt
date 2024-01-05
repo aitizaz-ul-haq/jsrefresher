@@ -1,0 +1,162 @@
+JavaScript Basics:
+==================
+
+Variables and Data Types:
+==========================
+
+Variable declaration (var, let, const)
+Dynamic typing
+Type coercion
+
+Data type conversion Operators:
+=================================
+
+Arithmetic operators (+, -, *, /, %)
+Comparison operators (==, ===, !=, !==, >, <, >=, <=)
+Logical operators (&&, ||, !)
+Ternary operator (conditional operator)
+
+Control Flow:
+===============
+
+if statements
+else and else if statements
+switch statements
+for loops
+while and do-while loops
+break and continue statements
+
+Functions:
+===========
+
+Function declaration
+Function expressions
+Anonymous functions
+Parameters and arguments
+Return statements
+Scope and closures
+
+Arrays:
+========
+
+Creating arrays
+Accessing array elements
+Array methods (push, pop, shift, unshift, splice, slice)
+Iterating through arrays (for...of, forEach)
+
+Objects:
+=========
+
+Object properties and methods
+Creating objects
+Accessing object properties
+Object methods
+Iterating through objects
+
+DOM Manipulation:
+==================
+
+Selecting DOM elements
+Modifying HTML content
+Modifying CSS styles
+Creating and appending elements
+Event listeners
+
+Events:
+========
+
+Event handling
+Event types (click, submit, keypress, etc.)
+Event propagation
+Event object
+
+Asynchronous JavaScript:
+========================
+
+Callback functions
+Promises (resolve, reject)
+Chaining promises
+Handling errors in promises
+Fetch API for asynchronous data retrieval
+
+Error Handling:
+================
+
+try, catch, finally blocks
+Throwing and catching custom errors
+Common JavaScript errors (TypeError, ReferenceError, etc.)
+
+ES6 Topics:
+============
+let and const:
+===============
+
+Block scope
+Variable reassignment
+Hoisting differences
+
+Arrow Functions:
+=================
+
+Shorter syntax
+Lexical scoping of this
+No binding of this
+
+Template Literals:
+==================
+
+Embedding expressions
+Multi-line strings
+
+Destructuring Assignment:
+==========================
+
+Object destructuring
+Array destructuring
+Default values
+
+Spread and Rest Operators:
+============================
+
+Spreading elements in arrays and objects
+Collecting elements into arrays
+Rest parameters in functions
+
+Default Parameters:
+====================
+
+Setting default values for function parameters
+Using default parameters in functions
+
+
+Classes:
+=========
+
+Class declaration
+Constructor method
+Class methods and properties
+Inheritance
+
+Modules:
+==========
+
+Importing/exporting modules
+Default exports
+Named exports
+Circular dependencies
+
+Promises:
+==========
+
+Creating promises
+Resolving and rejecting promises
+Chaining promises
+Promise.all and Promise.race
+
+Async/Await:
+=============
+
+Async functions
+await keyword
+Handling errors with try-catch
+Using async/await with promises

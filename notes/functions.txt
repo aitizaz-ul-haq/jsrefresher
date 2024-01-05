@@ -1,0 +1,79 @@
+Function Declaration:
+=====================
+
+Definition: Declaring a function using the function keyword.
+
+Function Expression:
+====================
+
+Definition: Assigning a function to a variable.
+
+Arrow Functions:
+================
+
+Definition: A concise way to write functions using the arrow (=>) syntax.
+
+Function Parameters:
+====================
+
+Definition: Values passed to a function when it is called.
+
+Return Statement:
+=================
+
+Definition: Used to specify the value to be returned by a function.
+
+Anonymous Functions:
+====================
+
+Definition: Functions without a name.
+
+Higher-Order Functions:
+=======================
+
+Definition: Functions that operate on other functions, taking them as arguments or returning them.
+
+Callback Functions:
+====================
+
+Definition: Functions passed as arguments to another function to be executed later.
+
+IIFE (Immediately Invoked Function Expression):
+================================================
+
+Definition: A function that is executed immediately after it is created.
+
+Closures:
+==========
+
+Definition: Functions that have access to variables from their outer (enclosing) scope.
+
+Default Parameters:
+====================
+
+Definition: Parameters with default values if no argument is provided.
+
+Rest Parameters:
+==================
+
+Definition: Allows a function to accept an indefinite number of arguments as an array.
+
+Arguments Object:
+==================
+
+Definition: An array-like object containing all the arguments passed to a function.
+
+Function Scope:
+===============
+
+Definition: The visibility of variables within a function.
+
+Recursion:
+===========
+
+Definition: A function that calls itself.
+
+Function Object:
+=================
+
+Definition: Functions in JavaScript are first-class objects, allowing them to be passed around like any other object.

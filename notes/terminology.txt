@@ -1,0 +1,18 @@
+block scoped
+function scoped
+temporal dead zone
+initialized
+redeclaration
+reassignment
+globalscope
+localscope
+immutibility
+dynamicly typed
+
+==============================================================
+
+Arthemetic
+Comparision
+Logical
+Assignment
+Conditional

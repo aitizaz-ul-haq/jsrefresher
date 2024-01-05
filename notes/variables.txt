@@ -1,0 +1,106 @@
+Varaible Decalration:
+=======================
+
+in javascript you can declare variables like
+
+let 
+variables
+const 
+
+-> var variables are function scoped meaning they are hoisted on the top of the function regardless of where  they were decalred so you can 
+   use them any where in side the function.
+
+-> var variables can be redeclared and reassgined
+
+-> let varaibles were introduced in es6 meaning they are only accessible in side the block they were decalred in 
+
+-> let variables can be reassigned but cannot be redeclared with in the same scope
+
+-> const variables were also introduced in es6 they cannot be reassigned however it does not make the variable it self mutable
+
+let and var comonality:
+========================
+
+-> let and const variables are block-scoped, which means they are confined to the nearest curly braces (block).
+
+-> Unlike var, variables declared with let and const are hoisted to the top of their block but are not initialized.
+
+-> This is often referred to as the "temporal dead zone," meaning you cannot access the variable before the line where it is declared.
+
+-> Both let and var are hoisted to the top of their respective scopes during the compilation phase. However, while var is hoisted and initialized with undefined, 
+   accessing a let variable before its declaration results in a ReferenceError due to the "temporal dead zone."
+
+
+Variable Naming:
+=================
+
+-> use meaningful variable names that properly identify to you in code what is the variable.
+
+-> follow camel case pattern to write the names of the variables e.g. myVariable
+
+
+Static Typing:
+===============
+
+-> javascript variables are statically types meaning we dont have define a datatype while initalizing a variable.
+
+-> javascript will determine the type of the variable dynamically depending upon the value assigned to the variable.
+
+Variable Assignment:
+======================
+
+-> use the variable assignment operator to assign values to a variable "="
+
+Reassignment:
+==============
+
+-> variables can be reassigned values depending upon the type of the variable let and var have a different behaviour when 
+   reassigned a value keeping in mind the block and function scope of the two reassignment works differently for both
+
+=> const variables as the name sujjests are constant variables they cannot be assigned anew value once assigned 
+
+Scope:
+======
+
+-> globalscope
+ -------------
+         -> variables assigned values outside the block scope have global scope they are accesible through out the app
+
+-> localscope
+-------------
+        -> the variables that are assigned values inside a block scope shall only be accesible inside the scope 
+
+
+
+
+Hoisting:
+=========
+
+variable hoisting:
+------------------
+
+      ->after compilation of javasceipt code all variables ar e hoisted at the top of there block or function what ever scope they exists 
+        but this is only the declaration of the code not initailization of the code the initializations only exist in the code where the value
+        is being assigned to the variable you cannot access the variable value before it is initialized ie assigned a value in code 
+
+undefined:
+==========
+
+-> a variable will throw an undefinde error becuase it might have been decalred and hoisted but the point where you trying to access its value 
+   is not where yet the value has been assigned to it 
+
+contants:
+=========
+
+-> for immutable values the values assigned to them cannot be change ie reassigned for number and string this is true but for 
+   objects elements values can be reassined so in an object if an element changes its value it is valid
+
+Template Literals:
+===================
+
+-> using backtics will allow you to embed variable in to strings easily this is a es6  feature and should be kept in mind for its is the latest way 
+   of embedding the variables into string this is called string interpolation.  
+
+
+
+

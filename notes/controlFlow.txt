@@ -1,0 +1,32 @@
+If Statement::
+======================
+The if statement is used to execute a block of code if a specified condition is true.
+
+
+
+ If-Else Statement:
+ ========================
+The if-else statement allows you to execute one block of code if a condition is true and another block if the condition is false.
+
+
+ If-Else If-Else Statement:
+ ============================
+The if-else if-else statement allows you to check multiple conditions in sequence and execute the corresponding block of 
+code for the first true condition.
+
+
+  Nested If Statements:
+  ======================
+  You can nest if statements inside other if or else blocks to handle more complex conditions.
+
+
+  Ternary Operator (Conditional Operator):
+  ==========================================
+The ternary operator is a concise way to write if-else statements in a single line.
+
+
+Truthy and Falsy Values:
+=========================
+JavaScript has truthy and falsy values. In conditional statements, values are automatically converted to boolean. 
+Falsy values are treated as false, and truthy values are treated as true.
+
