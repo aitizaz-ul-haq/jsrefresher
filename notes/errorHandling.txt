@@ -1,0 +1,42 @@
+Try...Catch Statement:
+=======================
+
+The try...catch statement allows you to handle errors within a specific block of code.
+The try block contains the code that might throw an exception.
+If an exception occurs, the catch block is executed, allowing you to handle the error.
+The finally block is optional and runs regardless of whether there was an error or not.
+
+Throwing Errors:
+=================
+You can explicitly throw an error using the throw statement.
+In the divide function, an error is thrown if the divisor b is zero.
+The try...catch block catches and handles the error.
+
+Error Objects:
+==============
+JavaScript provides built-in error objects like Error, SyntaxError, TypeError, etc. 
+Each error type has specific properties like message and name.
+
+Custom Error Objects:
+======================
+You can create custom error objects by extending the Error class.
+
+Promise Error Handling:
+========================
+When working with Promises, you can use the catch method to handle errors.
+If the promise is rejected, the catch block handles the error.
+
+Async/Await Error Handling:
+============================
+When using async/await, errors are handled using try...catch.
+In the fetchData function, errors during the asynchronous operations are caught using try...catch.
+
+Global Error Handling:
+=======================
+You can use the window.onerror event handler to catch unhandled errors globally in a browser environment.
+The window.onerror event is triggered for unhandled errors.
+
+Unhandled Promise Rejections:
+===============================
+To handle unhandled promise rejections globally, you can use the unhandledrejection event.
+The unhandledrejection event is triggered when a Promise is rejected, and the rejection is not handled.
