@@ -1,0 +1,150 @@
+ Object Literal Notation:
+ =========================
+
+ const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+ Object Constructor:
+ ====================
+
+const person = new Object();
+person.name = "John";
+person.age = 30;
+person.city = "New York";
+
+Accessing Properties:
+=====================
+
+Properties of an object can be accessed using dot notation (object.property) 
+or square bracket notation (object['property']).
+
+Modifying Properties:
+======================
+You can modify the values of object properties by assigning new values.
+
+Adding and Deleting Properties:
+================================
+You can add new properties to an object or delete existing properties.
+
+Object Methods:
+================
+Objects can also have methods, which are functions associated with the object.
+const person = {
+  name: "John",
+  age: 30,
+  greet: function() {
+    console.log(`Hello, my name is ${this.name}`);
+  }
+};
+
+person.greet(); // Outputs: Hello, my name is John
+
+
+Object Constructors and Prototypes:
+=====================================
+You can use constructor functions and prototypes to create objects with shared methods and properties.
+
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+Person.prototype.greet = function() {
+  console.log(`Hello, my name is ${this.name}`);
+};
+
+const john = new Person("John", 30);
+john.greet(); // Outputs: Hello, my name is John
+
+
+Object Destructuring:
+======================
+Destructuring allows you to extract values from objects and assign them to variables.
+const person = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+const { name, age } = person;
+
+console.log(name, age); // Outputs: John 30
+
+Nested Objects:
+================
+Objects can contain other objects as properties, creating nested structures.
+
+const person = {
+  name: "John",
+  address: {
+    city: "New York",
+    zip: "10001"
+  }
+};
+
+console.log(person.address.city); // Outputs: New York
+
+Iterating Over Object Properties:
+==================================
+You can iterate over object properties using for...in loop or Object methods.
+
+a. for...in Loop:
+==================
+
+for (const key in person) {
+  console.log(`${key}: ${person[key]}`);
+}
+
+
+b. Object Methods:
+===================
+
+Object.keys(obj): Returns an array of an object's own property names.
+Object.values(obj): Returns an array of an object's own property values.
+Object.entries(obj): Returns an array of an object's own property key-value pairs.
+
+const keys = Object.keys(person);
+const values = Object.values(person);
+const entries = Object.entries(person);
+
+console.log(keys); // Outputs: ['name', 'address']
+console.log(values); // Outputs: ['John', { city: 'New York', zip: '10001' }]
+console.log(entries); // Outputs: [['name', 'John'], ['address', { city: 'New York', zip: '10001' }]]
+
+
+Object Equality:
+=================
+Objects are compared by reference. Two objects with the same structure are not considered equal unless they refer to the same object.
+
+const obj1 = { name: "John" };
+const obj2 = { name: "John" };
+
+console.log(obj1 === obj2); // Outputs: false
+
+Object.freeze():
+The Object.freeze() method can be used to make an object immutable, preventing the addition, deletion, or modification of properties.
+
+const frozenObj = Object.freeze({ name: "John" });
+
+// Attempting to modify the frozen object
+frozenObj.name = "Jane"; // This will not have any effect
+
+console.log(frozenObj.name); // Outputs: John
+
+Object.seal():
+The Object.seal() method seals an object, preventing the addition or deletion of properties,
+ but allows the modification of existing properties.
+
+ const sealedObj = Object.seal({ name: "John" });
+
+// Attempting to add a new property
+sealedObj.age = 30; // This will not have any effect
+
+// Attempting to delete an existing property
+delete sealedObj.name; // This will not have any effect
+
+// Modifying an existing property
+sealed
