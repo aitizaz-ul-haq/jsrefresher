@@ -1,0 +1,47 @@
+js basics
+---------- 
+
+1) varaibles
+2) controlflow
+3) functions
+4) objects
+5) Arrays
+6) Error Handling
+7) Asynchronous programming
+8) Operators
+9) Api (Fetch)
+
+
+Es 6
+-----
+
+1) Arrow functions
+2) Async/Await
+3) Default Params
+4) Destruchering
+5) Let, var, const
+6) Modules
+7) Promises
+8) Spread and Rest Operators
+9) Template Literals
+
+
+TypeScript Essentials
+Static Type Checking
+Basic Types (number, string, boolean, null, undefined, enum, tuple, any)
+Interfaces (to define shapes of objects, function types, and arrays)
+Classes and Object-Oriented Features (public/private modifiers, abstract classes)
+Generics (for flexible and reusable code components)
+Advanced Types (union types, intersection types, type guards, conditional types)
+Decorators (to annotate and modify classes and properties)
+Namespaces and Modules (organizing code and avoiding global namespace pollution)
+Type Inference (understanding TypeScript's automatic type deductions)
+Type Assertion (explicitly specifying the type of a variable)
+Type Compatibility (how TypeScript compares types for compatibility)
+Advanced Compiler Options (configuring type checking, module resolution, etc.)
+Using TypeScript with JSX/TSX (for React development)
+Migrating from JavaScript to TypeScript (incremental adoption strategies)
+Configuring TypeScript Project (tsconfig.json for project setup and configuration)
+Integration with Build Tools (Webpack, Rollup, Parcel, and task runners like Gulp)
+
+
