@@ -68,6 +68,9 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
 .then(() => console.log('Post deleted'))
 .catch(error => console.error('Error:', error));
 
+
+
+
 // Handling Query Parameters
 const queryParams = new URLSearchParams({
     userId: 1
